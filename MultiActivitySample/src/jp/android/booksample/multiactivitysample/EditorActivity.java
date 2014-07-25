@@ -33,7 +33,7 @@ public class EditorActivity extends Activity implements OnClickListener {
 	private int position;
 
 	/**
-	 *
+	 * アクティビティ起動時に呼ばれる
 	 */
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -108,7 +108,7 @@ public class EditorActivity extends Activity implements OnClickListener {
 			}
 
 
- 			//intentにデータをつめる
+ 			//intentにデータを詰込む
             it.putExtra("DATA", memo);
             it.putExtra("position", position);
 
