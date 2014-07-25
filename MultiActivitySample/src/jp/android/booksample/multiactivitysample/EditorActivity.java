@@ -40,7 +40,7 @@ public class EditorActivity extends Activity implements OnClickListener {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_editor);
 
-		// イベントハンドラの設定
+		// イベントハンドラ設定
 		Button operate_save = (Button) findViewById(R.id.operate_save);
 		operate_save.setOnClickListener(this);
 
