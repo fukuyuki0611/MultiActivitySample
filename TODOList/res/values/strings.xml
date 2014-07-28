@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TODOList</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="column_title_todo">TODO</string>
+    <string name="column_title_date">期限</string>
+    <string name="column_title_done">完了</string>
+    <string name="checkbox_done">完了</string>
+    <string name="label_add">追加</string>
+    <string name="edit_title">編集</string>
+    <string name="context_delete">削除しますか？</string>
+    <string name="menu_save">保存</string>
+    <string name="menu_preferences">参照</string>
+
+</resources>
