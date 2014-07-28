@@ -85,6 +85,7 @@ public class EditorActivity extends Activity implements OnClickListener {
 			if(editor_title.getText() == null || editor_title.getText().toString().trim().length() == 0)
 			{
 				MainActivity.showDialog(this, "警告", "表題が未入力です");
+				return;
 			}
 
 			// 結果を通知するインテント
